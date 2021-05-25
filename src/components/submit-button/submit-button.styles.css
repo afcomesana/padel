@@ -1,0 +1,21 @@
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    background-color: #007cbd;
+    color: white;
+    padding: .65rem 1.25rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s ease all;
+    margin-top: 2.4rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}

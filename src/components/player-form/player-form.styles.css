@@ -1,0 +1,18 @@
+.player-form {
+    width: 24rem;
+    border: 2px solid #001e46;
+    border-radius: 10px;
+    padding: 1.3rem 2.5rem;
+    background-color: rgba(255, 255, 255, 0.850);
+}
+
+@media (max-width: 975px) {
+    .player-form:first-of-type {
+        margin-bottom: 2rem;
+    }
+}
+
+.player-form h3 {
+    font-size: 1.8rem;
+    color: #001e46;
+}
